@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>给我留言</title>
+<style>
+.all{width:100%;
+height:100%;
+background:url(images/baner.png);
+overflow:auto;
+position:fixed;
+top:auto;}
+header{width:1800px;
+margin-left:400px;
+display:flex;
+justify-content: center;
+ flex-direction: column;
+height:800px;
+}
+.baner{display:flex;
+justify-content:center;
+ flex-direction: row;
+ background:#CCC;
+ opacity:0.7;
+ width:1200px;
+ margin:0 auto;}
+.top{width:100px;
+height:20px;
+transition:all 0.3s ease;
+
+color:#003;
+padding-right:55px;
+padding:10px;
+text-align:center;
+}
+.banner{width:1200px;
+height:auto;
+margin:auto;
+}
+.top:hover
+{
+border-radius: 12px;
+cursor: pointer;
+box-shadow: 0 19px 39px 0 #999;
+transform: translate(0, -4px);}
+a{text-decoration:none;}
+.content{background:#CCC;
+padding-bottom:200px;
+ opacity:0.7;
+
+ width:800px;
+ margin-top: 150px ;
+ margin-left:400px;
+ margin-bottom:300px;
+}
+p{color:#006;
+}
+h2{position:relative;
+left:330px;
+font-size:36px;
+color:#003099;}
+ .big{
+ line-height:2;}
+
+ #n{box-shadow:0 0 10px 3px #999 inset;
+ color:#960;
+ font-size:24px;
+ border-radius: 12px;
+ text-align:center;
+ width:100px;
+height:20px;
+line-height:20px;
+padding-right:55px;
+padding:10px;}
+form{position:relative;
+left:200px;}
+input[type="submit"]{background: linear-gradient(to right bottom,#003099,#006);
+color:#FFF;
+height:30px;
+width:100px;
+border-radius:12px;
+opacity:0.7;
+}
+.inf{position:fixed;
+right:5%;
+bottom:5%;
+font-size:24px;
+color:#CCC;}
+</style>
+</head>
+
+<body>
+<div class="all">
+
+    <p class="banner"><img  src="images/背景.png"></p>
+    <div class="baner">
+        <a class="h" href="index1.html" target="_self"><div  class="top" ><strong>首页</strong></div></a>
+        <a class="h" href="index2.html" target="_self"><div class="top"><strong>剧情介绍</strong></div></a>
+        <a class="h" href="index3.html" target="_self"><div class="top"><strong>角色介绍</strong></div></a>
+        <a class="h" href="index4.html" target="_self"><div class="top"><strong>图库欣赏</strong></div></a>
+        <a class="h" href="index5.html" target="_self"><div class="top"><strong>影片评价</strong></div></a>
+        <a class="h" href="index6.html" target="_self"><div  id="n"><strong>给我留言</strong></div></a>
+    
+</div>
+    <div class="content">
+     <h2>给我留言</h2>
+      <form action="javascript:alert('提交成功')">
+       <p>昵称： &nbsp;  <input type="text" placeholder="请输入你的昵称"></p>
+      <p> Email：   <input type="text" placeholder="请输入你的邮箱"></p>
+      <p> 电话： &nbsp;   <input type="text" placeholder="请输入你的电话"><p>
+      <p> 喜欢动漫吗 <input type="radio" name="r" checked="checked" >喜欢<input type="radio" name="r">不喜欢<p>
+     给我留言： <textarea cols="60" rows="8" placeholder="请填写自己的留言"></textarea>
+      <p><input type="submit" name="sb" value="提交留言"><p>
+      </form>
+    </div>  
+     <p class="inf"><strong>电商2班&nbsp;&nbsp;杨紫豪&nbsp;&nbsp;4402230209</strong></p>
+</div>
+</body>
+</html>
